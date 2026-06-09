@@ -4,6 +4,8 @@ This interface is an interactive grid tool for creating a simple pathfinding sce
 
 A* is a pathfinding algorithm that searches for a low-cost route from a start point to a target point. It combines the cost already spent to reach a cell with an estimate of the remaining distance to the target, which helps it avoid exploring the whole grid when a promising route is available. In this interface, those values are shown as `G`, `H`, and `F`.
 
+![screenshot](output_example.png)
+
 Run the visualizer with:
 
 ```bash
